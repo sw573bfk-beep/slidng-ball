@@ -4,21 +4,21 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Slide Ball Game</title>
-  
-  <link rel="stylesheet" href="applab.css">
+  <link rel="stylesheet" href="https://code.org/applab/applab.css">
   <link rel="stylesheet" href="style.css">
-  
-  <script src="applab-api.js"></script>
 </head>
-<body style="margin:0; padding:0; background-color:#222;">
-  <div id="applab-container" class="applab-container" style="width: 100vw; height: 100vh; position: absolute;"></div>
+<body style="margin:0; padding:0;">
 
+  <div id="applab-container" class="applab-container" style="width:100vw; height:100vh;"></div>
+
+  <script src="https://code.org/applab/applab-api.js"></script>
   <script>
-    // This forces the Code.org library to boot up your specific code.js file
     AppLab.initialize({
       codePath: 'code.js',
-      containerId: 'applab-container'
+      containerId: 'applab-container',
+      designPath: 'index.html'
     });
   </script>
+
 </body>
 </html>
